@@ -9,7 +9,6 @@ def pytest_addoption(parser):
 
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options as OptionsFirefox
-from selenium.webdriver.common.by import By
 
 @pytest.fixture(scope="function")
 def browser(request):
