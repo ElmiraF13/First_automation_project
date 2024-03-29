@@ -12,5 +12,5 @@ def test_guest_can_add_product_to_basket(browser, offer):
     page.should_be_basket_button()
     page.should_be_message_of_adding_to_basket()
     page.should_be_same_product_cost_and_basket_total()
-    page.should_be_same_book_name_and_book_name_in_message()
+    page.should_be_same_book_name_on_product_page_and_in_message()
 #    time.sleep(100)
